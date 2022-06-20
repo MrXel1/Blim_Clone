@@ -1,0 +1,67 @@
+# Project: BLIM
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = main.o Pelicula.o Seriestv.o Usuarios.o Lista_Reproduccion.o Pago.o Assert.o HistorialUsuario.o Pagos.o Usuario.o list.o menu.o nodel.o Series.o
+LINKOBJ  = main.o Pelicula.o Seriestv.o Usuarios.o Lista_Reproduccion.o Pago.o Assert.o HistorialUsuario.o Pagos.o Usuario.o list.o menu.o nodel.o Series.o
+LIBS     = -L"C:/Users/Admin/Desktop/Descargas NO BORRAR/Dev-Cpp/MinGW64/lib" -L"C:/Users/Admin/Desktop/Descargas NO BORRAR/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"C:/Users/Admin/Desktop/Descargas NO BORRAR/Dev-Cpp/MinGW64/include" -I"C:/Users/Admin/Desktop/Descargas NO BORRAR/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Users/Admin/Desktop/Descargas NO BORRAR/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"C:/Users/Admin/Desktop/Descargas NO BORRAR/Dev-Cpp/MinGW64/include" -I"C:/Users/Admin/Desktop/Descargas NO BORRAR/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Users/Admin/Desktop/Descargas NO BORRAR/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Users/Admin/Desktop/Descargas NO BORRAR/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = BLIM.exe
+CXXFLAGS = $(CXXINCS) -std=c++11
+CFLAGS   = $(INCS) -std=c++11
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+Pelicula.o: Pelicula.cpp
+	$(CPP) -c Pelicula.cpp -o Pelicula.o $(CXXFLAGS)
+
+Seriestv.o: Seriestv.cpp
+	$(CPP) -c Seriestv.cpp -o Seriestv.o $(CXXFLAGS)
+
+Usuarios.o: Usuarios.cpp
+	$(CPP) -c Usuarios.cpp -o Usuarios.o $(CXXFLAGS)
+
+Lista_Reproduccion.o: Lista_Reproduccion.cpp
+	$(CPP) -c Lista_Reproduccion.cpp -o Lista_Reproduccion.o $(CXXFLAGS)
+
+Pago.o: Pago.cpp
+	$(CPP) -c Pago.cpp -o Pago.o $(CXXFLAGS)
+
+Assert.o: Assert.cpp
+	$(CPP) -c Assert.cpp -o Assert.o $(CXXFLAGS)
+
+HistorialUsuario.o: HistorialUsuario.cpp
+	$(CPP) -c HistorialUsuario.cpp -o HistorialUsuario.o $(CXXFLAGS)
+
+Pagos.o: Pagos.cpp
+	$(CPP) -c Pagos.cpp -o Pagos.o $(CXXFLAGS)
+
+Usuario.o: Usuario.cpp
+	$(CPP) -c Usuario.cpp -o Usuario.o $(CXXFLAGS)
+
+list.o: list.cpp
+	$(CPP) -c list.cpp -o list.o $(CXXFLAGS)
+
+menu.o: menu.cpp
+	$(CPP) -c menu.cpp -o menu.o $(CXXFLAGS)
+
+nodel.o: nodel.cpp
+	$(CPP) -c nodel.cpp -o nodel.o $(CXXFLAGS)
+
+Series.o: Series.cpp
+	$(CPP) -c Series.cpp -o Series.o $(CXXFLAGS)

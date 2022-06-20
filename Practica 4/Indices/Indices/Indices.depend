@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1602369070 source:c:\users\evr_a\documents\ingenieria en informatica\5to semestre\seminario de estructuras 2\indices\main.cpp
+	<iostream>
+	<string.h>
+	<fstream>
+	<cstdlib>
+
+1602365470 source:c:\users\kiss_\desktop\indices\main.cpp
+	<iostream>
+	<string.h>
+	<fstream>
+	<cstdlib>
+

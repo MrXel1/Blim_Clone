@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1601844901 source:c:\users\evr_a\documents\ingenieria en informatica\5to semestre\seminario de estructuras 2\registros longitud fija final\registros longitud fija final\longitud fija\main.cpp
+	<cstdlib>
+	<iostream>
+	<fstream>
+	<cstring>
+	"lsl.h"
+
+1601843137 c:\users\evr_a\documents\ingenieria en informatica\5to semestre\seminario de estructuras 2\registros longitud fija final\registros longitud fija final\longitud fija\lsl.h
+	<iostream>
+	<stdexcept>
+	<memory>
+

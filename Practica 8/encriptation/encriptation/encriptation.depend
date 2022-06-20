@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1606616909 source:c:\users\evr_a\desktop\encriptation\main.cpp
+	<iostream>
+	<cstdlib>
+	<string.h>
+	<fstream>
+

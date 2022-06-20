@@ -1,0 +1,118 @@
+# depslib dependency file v1.0
+1629939720 source:c:\users\kiss_\desktop\2021b\semianrio estructuras 2\actividades\peliculas\main.cpp
+	<iostream>
+	"Pelicula.h"
+	"Administrador.h"
+	"Serie.h"
+
+1629471857 c:\users\kiss_\desktop\2021b\semianrio estructuras 2\actividades\peliculas\include\pelicula.h
+	<iostream>
+	<iomanip>
+	<list>
+	<conio.h>
+	<algorithm>
+	<ostream>
+
+1629481059 c:\users\kiss_\desktop\2021b\semianrio estructuras 2\actividades\peliculas\include\administrador.h
+	"Pelicula.h"
+	<list>
+	<conio.h>
+	<algorithm>
+	<iomanip>
+	<iostream>
+
+1629428459 source:c:\users\kiss_\desktop\2021b\semianrio estructuras 2\actividades\peliculas\src\pelicula.cpp
+	"Pelicula.h"
+
+1629471857 source:c:\users\kiss_\desktop\2021b\semianrio estructuras 2\actividades\peliculas\src\administrador.cpp
+	"Administrador.h"
+	"Pelicula.h"
+	<fstream>
+	<algorithm>
+	<iostream>
+	<conio.h>
+	<iomanip>
+
+1629936572 c:\users\kiss_\desktop\2021b\semianrio estructuras 2\actividades\peliculas\include\series.h
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<fstream>
+
+1629938222 source:c:\users\kiss_\desktop\2021b\semianrio estructuras 2\actividades\peliculas\src\serie.cpp
+	"Serie.h"
+	"cola.h"
+	"ldl.h"
+
+1629943620 c:\users\kiss_\desktop\2021b\semianrio estructuras 2\actividades\peliculas\include\serie.h
+	<iostream>
+	<fstream>
+	<cstring>
+	<string.h>
+	<cstdlib>
+	"ldl.h"
+	"cola.h"
+
+1629939500 c:\users\kiss_\desktop\2021b\semianrio estructuras 2\actividades\peliculas\include\ldl.h
+	<iostream>
+	<stdexcept>
+	<memory>
+
+1629939533 c:\users\kiss_\desktop\2021b\semianrio estructuras 2\actividades\peliculas\include\cola.h
+	<iostream>
+	<stdexcept>
+	"ldl.h"
+
+1630084325 source:c:\users\kiss_\desktop\2021b\semianrio estructuras 2\actividades\series\main.cpp
+	<iostream>
+	"Pelicula.h"
+	"Administrador.h"
+	"Serie.h"
+
+1629471857 c:\users\kiss_\desktop\2021b\semianrio estructuras 2\actividades\series\include\pelicula.h
+	<iostream>
+	<iomanip>
+	<list>
+	<conio.h>
+	<algorithm>
+	<ostream>
+
+1629481059 c:\users\kiss_\desktop\2021b\semianrio estructuras 2\actividades\series\include\administrador.h
+	"Pelicula.h"
+	<list>
+	<conio.h>
+	<algorithm>
+	<iomanip>
+	<iostream>
+
+1630085217 c:\users\kiss_\desktop\2021b\semianrio estructuras 2\actividades\series\include\serie.h
+	<iostream>
+	<fstream>
+	<cstring>
+	<string.h>
+	<cstdlib>
+	"ldl.h"
+	"cola.h"
+
+1629939500 c:\users\kiss_\desktop\2021b\semianrio estructuras 2\actividades\series\include\ldl.h
+	<iostream>
+	<stdexcept>
+	<memory>
+
+1629939533 c:\users\kiss_\desktop\2021b\semianrio estructuras 2\actividades\series\include\cola.h
+	<iostream>
+	<stdexcept>
+	"ldl.h"
+
+1629471857 source:c:\users\kiss_\desktop\2021b\semianrio estructuras 2\actividades\series\src\administrador.cpp
+	"Administrador.h"
+	"Pelicula.h"
+	<fstream>
+	<algorithm>
+	<iostream>
+	<conio.h>
+	<iomanip>
+
+1629428459 source:c:\users\kiss_\desktop\2021b\semianrio estructuras 2\actividades\series\src\pelicula.cpp
+	"Pelicula.h"
+

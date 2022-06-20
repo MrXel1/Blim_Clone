@@ -1,0 +1,67 @@
+# depslib dependency file v1.0
+1629480449 source:c:\users\kiss_\desktop\2021b\semianrio estructuras 2\actividades\peliculas\main.cpp
+	<iostream>
+	"Pelicula.h"
+	"Administrador.h"
+
+1629471857 c:\users\kiss_\desktop\2021b\semianrio estructuras 2\actividades\peliculas\include\pelicula.h
+	<iostream>
+	<iomanip>
+	<list>
+	<conio.h>
+	<algorithm>
+	<ostream>
+
+1629481059 c:\users\kiss_\desktop\2021b\semianrio estructuras 2\actividades\peliculas\include\administrador.h
+	"Pelicula.h"
+	<list>
+	<conio.h>
+	<algorithm>
+	<iomanip>
+	<iostream>
+
+1629428459 source:c:\users\kiss_\desktop\2021b\semianrio estructuras 2\actividades\peliculas\src\pelicula.cpp
+	"Pelicula.h"
+
+1629471857 source:c:\users\kiss_\desktop\2021b\semianrio estructuras 2\actividades\peliculas\src\administrador.cpp
+	"Administrador.h"
+	"Pelicula.h"
+	<fstream>
+	<algorithm>
+	<iostream>
+	<conio.h>
+	<iomanip>
+
+1629480449 source:c:\users\compa\downloads\drive-download-20220511t061659z-001\practica 1\peliculas\peliculas\main.cpp
+	<iostream>
+	"Pelicula.h"
+	"Administrador.h"
+
+1629471857 c:\users\compa\downloads\drive-download-20220511t061659z-001\practica 1\peliculas\peliculas\include\pelicula.h
+	<iostream>
+	<iomanip>
+	<list>
+	<conio.h>
+	<algorithm>
+	<ostream>
+
+1629481059 c:\users\compa\downloads\drive-download-20220511t061659z-001\practica 1\peliculas\peliculas\include\administrador.h
+	"Pelicula.h"
+	<list>
+	<conio.h>
+	<algorithm>
+	<iomanip>
+	<iostream>
+
+1629471857 source:c:\users\compa\downloads\drive-download-20220511t061659z-001\practica 1\peliculas\peliculas\src\administrador.cpp
+	"Administrador.h"
+	"Pelicula.h"
+	<fstream>
+	<algorithm>
+	<iostream>
+	<conio.h>
+	<iomanip>
+
+1629428459 source:c:\users\compa\downloads\drive-download-20220511t061659z-001\practica 1\peliculas\peliculas\src\pelicula.cpp
+	"Pelicula.h"
+
